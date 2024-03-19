@@ -21,25 +21,10 @@ class _SplashScreenState extends State<SplashScreen> {
             height: ScreenUtil().screenHeight,
             color: const Color(0xFF090350),
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 SizedBox(
-                  height: 226.h,
-                ),
-                Align(
-                  alignment: Alignment.center,
-                  child: SizedBox(
-                      // width: 258.w,
-                      height: 18.h,
-                      child: Text(
-                        "Welcome to SAT Mobility Solutions",
-                        style: TextStyle(
-                            color: const Color(0xFFFFFFFF),
-                            fontSize: 15,
-                            fontWeight: FontWeight.bold),
-                      )),
-                ),
-                SizedBox(
-                  height: 46.h,
+                  height: 5.h,
                 ),
                 SizedBox(
                     height: 221.h,

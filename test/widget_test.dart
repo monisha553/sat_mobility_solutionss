@@ -7,6 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:sat_mobility_solutions/app.dart';
 
 import 'package:sat_mobility_solutions/main.dart';
 
